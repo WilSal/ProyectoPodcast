@@ -1,0 +1,208 @@
+@media screen and (min-width: 781px) {
+    body {
+        margin: 1%;
+    }
+    .logo {
+        height: 36px;
+        width: 36px;
+    }
+    h1 {
+        font-size: 64px;
+        &::after {
+            color: #0000EC;
+        }
+    }
+    h2 {
+        font-size: 48px;
+        margin-left: 200px;
+    }
+    .h2-epi {
+        margin-bottom: 26px;
+        position: relative;
+        top: 140px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 24px;
+        width: 628px;
+    }
+    ul {
+        height: 80px;
+    }
+    li {
+        a {
+            color: #060A24;
+        }
+        margin: 2px 24px 0px 24px;
+    }
+    .items-menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .cont-princ,
+    .cont-invitados {
+        max-width: 1440px;
+    }
+    .cont-venimos {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .cont-epi {
+        clip-path: polygon(0 20%, 100% 0%, 100% 81%, 0% 100%);
+        height: 1042.6px;
+    }
+    .cont-final {
+        clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    }
+    .cont-venimos__div {
+        margin-left: 62.4px;
+        margin-top: 20.4px;
+    }
+    .cont-venimos__h2 {
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .cont-invitados__h2 {
+        margin-top: 64px;
+        margin-bottom: 36px;
+    }
+    #icon-burg-check,
+    .label-burg {
+        display: none;
+    }
+    .navmenu {
+        padding: 22px 100px;
+    }
+    .boton {
+        font-size: 18px;
+        margin-top: 56px;
+        margin-bottom: 191px;
+        height: 56px;
+        width: 226px;
+        height: 56px;
+    }
+    .botones-ini {
+        height: 113px;
+    }
+    .cont-init {
+        margin-left: 200px;
+        margin-top: 120px;
+    }
+    .items-podcast {
+        top: 10px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0px 100px 64px 100px;
+    }
+    .ele-spoti {
+        border-width: 0px;
+        width: 40.6%;
+        height: 232px;
+        padding: 0px 72px 72px 0px;
+    }
+    .imagen-phone {
+        max-width: 457.6px;
+        max-height: 660px;
+    }
+    .item-invitado {
+        max-width: 480px;
+        max-height: 364px;
+    }
+    .cont-invitados__items {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .cont-nues-tem {
+        margin-top: 64px;
+        margin-bottom: 34px;
+    }
+    .label-svg {
+        max-width: 220px;
+        max-height: 64px;
+        padding: 29px 20px 0px 20px;
+    }
+    .item-svg {
+        margin: 13px 78px;
+    }
+    .cont-nues-tem__img {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .cont-nues-tem__div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-left: 200px;
+    }
+    #topicos {
+        margin: 64px 0 56px 200px;
+    }
+    .cont-final {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        height: 518px;
+    }
+    .h2-final {
+        margin-left: 0px;
+    }
+    .boton-esc {
+        margin-top: 36px;
+        margin-bottom: 0px;
+        -ms-flex-item-align: center;
+        align-self: center;
+        width: 345px;
+    }
+    .pie-pagina {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 95px;
+        padding: 0px 100px;
+    }
+    .icon {
+        width: 18px;
+        padding-left: 36px;
+        &:hover {
+            width: 20px;
+            height: 32px;
+        }
+    }
+}
